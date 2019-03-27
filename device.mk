@@ -120,6 +120,7 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlaySweet \
     SettingsOverlaySweet \
     SettingsLibOverlaySweet \
+    NotchBarKillerSweet \
     SettingsProviderOverlaySweet \
     SystemUIOverlaySweet \
     TelephonyOverlaySweet
