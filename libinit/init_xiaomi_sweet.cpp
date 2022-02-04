@@ -27,8 +27,8 @@ static const variant_info_t sweet_eea_info = {
 
     .brand = "Redmi",
     .device = "sweet",
-    .marketname = "Redmi Note 10 Pro",
-    .model = "M2101K6G",
+    .marketname = "Redmi Note 10 Pro Max",
+    .model = "M2101K6I",
 
     .nfc = true,
 };
@@ -39,8 +39,8 @@ static const variant_info_t sweetin_info = {
 
     .brand = "Redmi",
     .device = "sweetin",
-    .marketname = "Redmi Note 10 Pro Max",
-    .model = "M2101K6I",
+    .marketname = "Redmi Note 10 Pro",
+    .model = "M2101K6G",
 
     .nfc = false,
 };
