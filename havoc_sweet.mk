@@ -29,6 +29,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 
+# Official
+HAVOC_BUILD_TYPE := Official
+
 # Inherit some common PixelExperience stuff
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_WIFI_EXT := true
