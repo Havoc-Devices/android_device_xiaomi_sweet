@@ -1,7 +1,27 @@
-[
+[ 
   {
-    "repository": "device_xiaomi_sm8150-common",
-    "target_path": "device/xiaomi/sm8150-common",
-    "branch": "11"
+    "repository": "android_device_xiaomi_sm6150-common_sweet",
+    "target_path": "device/xiaomi/sm6150-common",
+    "branch": "eleven"
+  },
+  {
+    "repository": "android_kernel_xiaomi_sm6150",
+    "target_path": "kernel/xiaomi/sm6150",
+    "branch": "eleven"
+  },
+  {
+    "repository": "android_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "eleven"
+  },
+  {
+    "repository": "gcc-arm",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi",
+    "branch": "eleven"
+  },
+  {
+    "repository": "gcc-arm64",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
+    "branch": "eleven"
   }
 ]
