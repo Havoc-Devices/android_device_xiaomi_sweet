@@ -363,6 +363,10 @@ PRODUCT_PACKAGES += \
      libloc_core \
      libgnss
 
+# Platform
+PRODUCT_BOARD_PLATFORM := sm6150
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.sweet
