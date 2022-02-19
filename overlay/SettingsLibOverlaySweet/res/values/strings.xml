@@ -20,4 +20,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- [CHAR_LIMIT=20] Battery use screen.  Battery status shown in chart label when charging speed is fast.  -->
     <string name="battery_info_status_charging_fast">Turbo charging</string>
+
+    <!-- Battery Health enable -->
+    <bool name="config_supportBatteryHealth">true</bool>
+    <!-- Battery Health -->
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_counter</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
 </resources>
