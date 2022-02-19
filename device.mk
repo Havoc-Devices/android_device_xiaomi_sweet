@@ -365,4 +365,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.sweet
 
+# ANXCamera
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 include vendor/xiaomi/sweet/sweet-vendor.mk
+
