@@ -113,17 +113,27 @@ TARGET_DISABLE_MIMOJI_FILES := true
 PRODUCT_PACKAGES += \
     DeviceSettings
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay2 \
+    $(LOCAL_PATH)/overlay-aosp
+
+PRODUCT_ENFORCE_RRO_TARGETS += *
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
+
+
 # Overlays
-PRODUCT_PACKAGES += \
-    CarrierConfigOverlaySweet \
-    DialerOverlaySweet \
-    FrameworkResOverlaySweet \
-    SettingsOverlaySweet \
-    SettingsLibOverlaySweet \
-    NotchBarKillerSweet \
-    SettingsProviderOverlaySweet \
-    SystemUIOverlaySweet \
-    TelephonyOverlaySweet
+#PRODUCT_PACKAGES += \
+#    CarrierConfigOverlaySweet \
+#    DialerOverlaySweet \
+#    FrameworkResOverlaySweet \
+#    SettingsOverlaySweet \
+#    SettingsLibOverlaySweet \
+#    NotchBarKillerSweet \
+#    SettingsProviderOverlaySweet \
+#    SystemUIOverlaySweet \
+#    TelephonyOverlaySweet
 
 # Permissions
 PRODUCT_COPY_FILES += \
