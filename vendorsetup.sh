@@ -2,13 +2,10 @@ export SKIP_ABI_CHECKS=true
 export SKIP_API_CHECKS=true
 export SELINUX_IGNORE_NEVERALLOWS=true
 #export ALLOW_MISSING_DEPENDENCIES=true
-
 #ANXCamera
 git clone https://gitlab.com/dhimanparas20/vendor_anxcamera.git vendor/ANXCamera 
-# Compilers
-#git clone https://gitlab.com/ElectroPerf/atom-x-clang.git --depth=1 prebuilts/clang/host/linux-x86/clang-atom
-#git clone --depth=1 https://github.com/mvaisakh/gcc-arm64.git prebuilts/gcc/linux-x86/aarch64/aarch64-elf
-#git clone --depth=1 https://github.com/mvaisakh/gcc-arm.git prebuilts/gcc/linux-x86/arm/arm-eabi
+# Proton-Clang
+git clone --depth=1 https://github.com/Havoc-Devices/proton-clang.git prebuilts/clang/host/linux-x86/clang-proton
 # Xiaomi's Hardware
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-18.1 hardware/xiaomi
 # Cache
