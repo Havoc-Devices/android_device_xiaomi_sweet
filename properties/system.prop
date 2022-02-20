@@ -19,3 +19,9 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Camera
 persist.vendor.camera.facepp.fdenable=0
+
+# Havoc Official
+ro.havoc.device.name=Redmi Note 10 Pro
+ro.havoc.group.url=https://t.me/+tlKUR8PMaqI2OTA1
+ro.havoc.maintainer=Paras Dhiman
+ro.havoc.maintainer.username=Ken_kaneki_69
