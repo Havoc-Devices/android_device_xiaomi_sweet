@@ -28,7 +28,7 @@ HAVOC_BUILD_TYPE := Official
 
 PRODUCT_NAME := havoc_sweet
 PRODUCT_DEVICE := sweet
-PRODUCT_BRAND := Redmi
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
