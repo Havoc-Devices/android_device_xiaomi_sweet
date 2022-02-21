@@ -20,11 +20,13 @@ SELINUX_IGNORE_NEVERALLOWS_ON_USER := true
 # Reduce system image size by limiting java debug info.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
-# Gapps
+# Sakura flags
+SAKURA_OFFICIAL := true
+SAKURA_MAINTAINER := Paras_Dhiman
+TARGET_USES_BLUR := true
+SAKURA_BUILD_TYPE := coregapps
 TARGET_GAPPS_ARCH := arm64
 
-# Official
-lineage_BUILD_TYPE := Official
 
 PRODUCT_NAME := lineage_sweet
 PRODUCT_DEVICE := sweet
@@ -38,9 +40,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.211001.001 7641976 release-keys"
 
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys"
-
-# Sakura flags
-SAKURA_OFFICIAL := true
-SAKURA_MAINTAINER := Paras_Dhiman
-TARGET_USES_BLUR := true
-SAKURA_BUILD_TYPE := coregapps

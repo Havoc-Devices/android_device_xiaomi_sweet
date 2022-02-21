@@ -4,7 +4,7 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 export SAKURA_OFFICIAL = True
 #export ALLOW_MISSING_DEPENDENCIES=true
 #ANXCamera
-git clone https://gitlab.com/dhimanparas20/vendor_anxcamera.git vendor/ANXCamera 
+git clone https://gitlab.com/dhimanparas20/anx.git -b 11-oss vendor/ANXCamera 
 # Proton-Clang
 git clone --depth=1 https://github.com/Havoc-Devices/proton-clang.git prebuilts/clang/host/linux-x86/clang-proton
 # Xiaomi's Hardware

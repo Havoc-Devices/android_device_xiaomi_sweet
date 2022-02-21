@@ -120,18 +120,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS += *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
-
-# Overlays
-#PRODUCT_PACKAGES += \
-#    CarrierConfigOverlaySweet \
-#    DialerOverlaySweet \
-#    FrameworkResOverlaySweet \
-#    SettingsOverlaySweet \
-#    SettingsLibOverlaySweet \
-#    NotchBarKillerSweet \
-#    SettingsProviderOverlaySweet \
-#    SystemUIOverlaySweet \
-#    TelephonyOverlaySweet
+PRODUCT_PACKAGES += \
+    NotchBarKillerSweet 
 
 # Permissions
 PRODUCT_COPY_FILES += \
