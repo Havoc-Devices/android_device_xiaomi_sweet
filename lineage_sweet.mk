@@ -6,7 +6,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit some common stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -24,9 +24,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 TARGET_GAPPS_ARCH := arm64
 
 # Official
-HAVOC_BUILD_TYPE := Official
+lineage_BUILD_TYPE := Official
 
-PRODUCT_NAME := havoc_sweet
+PRODUCT_NAME := lineage_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
@@ -38,3 +38,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.211001.001 7641976 release-keys"
 
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys"
+
+# Sakura flags
+SAKURA_OFFICIAL := true
+SAKURA_MAINTAINER := Paras_Dhiman
+TARGET_USES_BLUR := true
+SAKURA_BUILD_TYPE := coregapps

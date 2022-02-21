@@ -1,6 +1,7 @@
 export SKIP_ABI_CHECKS=true
 export SKIP_API_CHECKS=true
 export SELINUX_IGNORE_NEVERALLOWS=true
+export SAKURA_OFFICIAL = True
 #export ALLOW_MISSING_DEPENDENCIES=true
 #ANXCamera
 git clone https://gitlab.com/dhimanparas20/vendor_anxcamera.git vendor/ANXCamera 
